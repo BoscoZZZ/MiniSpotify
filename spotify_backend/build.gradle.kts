@@ -9,10 +9,10 @@ plugins {
     kotlin("plugin.serialization") version "1.8.10"
 }
 
-group = "com.laioffer"
+group = "com.mini"
 version = "0.0.1"
 application {
-    mainClass.set("com.laioffer.ApplicationKt")
+    mainClass.set("com.mini.ApplicationKt")
 
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")

@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.laioffer.spotify.ui.home.HomeFragment"
+        android:name="com.mini.spotify.ui.home.HomeFragment"
         android:label="HomeFragment">
         <action
             android:id="@+id/action_homeFragment_to_playlistFragment"
@@ -15,7 +15,7 @@
 
     <fragment
         android:id="@+id/favoriteFragment"
-        android:name="com.laioffer.spotify.ui.favorite.FavoriteFragment"
+        android:name="com.mini.spotify.ui.favorite.FavoriteFragment"
         android:label="FavoriteFragment">
         <action
             android:id="@+id/action_favoriteFragment_to_playlistFragment"
@@ -24,11 +24,11 @@
 
     <fragment
         android:id="@+id/playlistFragment"
-        android:name="com.laioffer.spotify.ui.playlist.PlaylistFragment"
+        android:name="com.mini.spotify.ui.playlist.PlaylistFragment"
         android:label="PlaylistFragment">
         <argument
             android:name="album"
-            app:argType="com.laioffer.spotify.datamodel.Album" />
+            app:argType="com.mini.spotify.datamodel.Album" />
     </fragment>
 
 </navigation>
